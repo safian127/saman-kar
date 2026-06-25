@@ -20,7 +20,7 @@ jobs:
           gradle-version: "8.7"
 
       - name: Build
-        run: gradle :app:assembleDebug
+        run: gradle assembleDebug
 
       - name: Collect APK
         run: |
